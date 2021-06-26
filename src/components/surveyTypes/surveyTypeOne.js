@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const Mysurvey = ()=> {
     // const newSurvey = {data => data.valuesHash};
-    const url = 'http://localhost:5000/create-survey';
+    const url = 'https://tea-harshit-project.herokuapp.com/';
     return (
         <Survey.Survey
         showCompletedPage = {false}
