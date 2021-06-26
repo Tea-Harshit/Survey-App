@@ -9,7 +9,7 @@ const Mysurvey = ()=> {
     const url = 'https://tea-harshit-project.herokuapp.com/create-survey/';
     return (
         <Survey.Survey
-        showCompletedPage = {false}
+        showCompletedPage = {true}
 
 
         onComplete = {data =>
